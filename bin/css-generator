@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var source = process.argv[2];
-var target = process.argv[3];
+var source = process.argv[2] + '.js';
+var target = (process.argv[3] || process.argv[2]) + '.css';
 
 require('../' + source);
 

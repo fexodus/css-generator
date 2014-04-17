@@ -10,4 +10,4 @@ b('fade',
     'visibility': 'visible'
     'opacity': '1'
     'transition-delay': '0s')
-  .expose()
+    .expose()
