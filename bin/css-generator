@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var source = process.argv[2];
+var target = process.argv[3];
+
+require('../' + source);
+
+require('fs').writeFile(target, require('../src/generator').render(), function(err) {
+    if(err) {
+        console.log(err);
+    } else {
+        console.log("done!");
+    }
+});

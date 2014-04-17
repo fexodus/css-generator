@@ -1,2 +1,2 @@
-css-optimizer
+css-generator
 =============

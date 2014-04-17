@@ -1,22 +1,23 @@
 {
-	"name": "css-optimizer",
-	"version": "0.0.1",
-	"description": "css-optimizer\r =============",
-	"main": "index.js",
+	"name": "css-generator",
+	"version": "1.0.0",
+	"description": "css-generator\r =============",
+	"main": "./bin",
+	"bin": { "css-generator": "./bin/css-generator" },
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/fexodus/css-optimizer.git"
+		"url": "https://github.com/fexodus/css-generator.git"
 	},
 	"author": "Felix Vogel",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/fexodus/css-optimizer/issues"
+		"url": "https://github.com/fexodus/css-generator/issues"
 	},
-	"homepage": "https://github.com/fexodus/css-optimizer",
+	"homepage": "https://github.com/fexodus/css-generator",
 	"devDependencies": {
-		"gonzales": "~1.0.7"
+		"coffee-script": "~1.7.1"
 	}
 }
